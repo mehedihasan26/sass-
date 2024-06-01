@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rebeccapurple;
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "playfair Display", serif;
+  margin: 0 0 15px;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+  margin: 0 0 15px;
+}
+
+/*menumenubar_area*/
+#menubar_area {
+  width: 100;
+  padding: 50 0;
+  text-align: center;
+}
+#menubar_area h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 0 0 25px;
+}
+#menubar_area .container {
+  width: 1140px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+#menubar_area .child_service {
+  background: #f3a65c;
+  text-align: center;
+  padding: 40px 25px;
+  flex: 1;
+}
+#menubar_area .child_service:nth-child(odd) {
+  background: #b7989b;
+}/*# sourceMappingURL=main.css.map */
